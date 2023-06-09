@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Doc App</title>
   </head>
-  <body>
+  <body class="text-center md:text-left">
     <section
       class="w-full text-white py-5 px-5 md:px-60 bg-center bg-cover"
       style="background-image: url('images/backgroundimg.png')"
@@ -29,7 +29,7 @@
         </nav>
       </div>
       <div class="banner md:flex items-center justify-center py-5 md:py-20">
-        <div class="bannertext md:w-2/3 text-center md:text-left">
+        <div class="bannertext md:w-2/3">
           <h1 class="text-4xl mt-10 md:text-6xl md:mt-0 font-semibold mb-10">
             Your Best Medical Help Center
           </h1>
@@ -38,7 +38,7 @@
             been the industry’s stardard.
           </p>
           <button
-            class="bg-[#F7A582] text-white px-10 py-5 rounded-xl mt-10 font-bold"
+            class="bg-[#F7A582] text-white px-10 py-5 rounded-xl mt-10 font-bold md:hover:bg-transparent md:hover:text-[#F7A582] border-2 border-[#F7A582]"
           >
             All Service
           </button>
@@ -49,14 +49,16 @@
       </div>
     </section>
 
-    <!-- <section class="ourservices flex gap-5 mt-20 justify-evenly px-60">
-      <div class="servicesleft w-1/2">
-        <img class="w-full" src="/images/services.png" alt="" />
+    <section
+      class="ourservices md:flex md:gap-5 mt-10 md:mt-20 md:justify-evenly px-5 md:px-60"
+    >
+      <div class="servicesleft md:w-1/2">
+        <img class="w-full" src="images/services.png" alt="" />
       </div>
-      <div class="servicesright w-1/2">
+      <div class="servicesright mt-10 md:w-1/2 md:mt-0">
         <div class="servicetext">
           <h1 class="font-bold text-3xl">Our Services</h1>
-          <p>
+          <p class="my-6">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inve ntore veritatis et quasi architecto beatae vitae
@@ -64,15 +66,46 @@
           </p>
         </div>
 
-        <div class="buttons">
-          <button>Cavity Protection</button>
-          <button>Cosmetic Dentisty</button>
-          <button>Oral Surgery</button>
+        <div class="buttons hidden border md:flex w-full rounded-xl">
+          <button
+            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
+          >
+            Cavity Protection
+          </button>
+          <button
+            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
+          >
+            Cosmetic Dentisty
+          </button>
+          <button
+            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
+          >
+            Oral Surgery
+          </button>
         </div>
-        <img src="/images/servicesleft.png" alt="" />
-        <div class="servicesbtm">
-          <h1>Electro Gastrology Therapy</h1>
-          <p>
+
+        <div class="flex md:hidden border w-full rounded-xl">
+          <button
+            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
+          >
+            Gastrology
+          </button>
+          <button
+            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
+          >
+            Orthopedic
+          </button>
+        </div>
+
+        <img
+          class="hidden md:block mt-10"
+          src="images/servicesleft.png"
+          alt=""
+        />
+        <img class="block md:hidden mt-5" src="images/petehaat.png" alt="" />
+        <div class="servicesbtm mt-8">
+          <h1 class="font-bold text-3xl">Electro Gastrology Therapy</h1>
+          <p class="my-6">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inve ntore veritatis et quasi architecto beatae vitae
@@ -82,9 +115,13 @@
             eaque ipsa quae ab illo inve ntore veritatis et quasi architecto
             beatae vitae dicta sunt explicabo.
           </p>
-          <button>More Details</button>
+          <button
+            class="px-10 py-5 rounded-xl font-bold md:hover:bg-transparent text-[#F7A582] border-2 border-[#F7A582]"
+          >
+            More Details
+          </button>
         </div>
       </div>
-    </section> -->
+    </section>
   </body>
 </html>
