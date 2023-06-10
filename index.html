@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Doc App</title>
   </head>
   <body class="max-w-[1500px] mx-auto text-center md:text-left">
@@ -20,10 +21,10 @@
         <img src="images/logo.png" alt="" />
         <nav class="mx-3">
           <ul class="hidden space-x-6 text-lg md:flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Appointment</li>
-            <li>Login</li>
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Appointment</li>
+            <li class="cursor-pointer">Login</li>
           </ul>
           <i class="block md:hidden text-3xl font-bold fa-solid fa-bars"></i>
         </nav>
@@ -120,6 +121,37 @@
           >
             More Details
           </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards px-60 gap-5 mt-10 flex justify-evenly text-white">
+      <div class="one bg-[#07332F] p-10 rounded-xl flex gap-5">
+        <div class="icon">
+          <i class="fa-regular fa-clock text-3xl"></i>
+        </div>
+        <div class="text">
+          <h1 class="font-bold text-2xl">Opening Hours</h1>
+          <p class="text-lg">Open 9.00 am to 5.00pm Everyday</p>
+        </div>
+      </div>
+      <div class="two bg-[#F7A582] p-10 rounded-xl flex gap-5">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot text-3xl"></i>
+        </div>
+        <div class="text">
+          <h1 class="font-bold text-2xl">Our Locations</h1>
+          <p class="text-lg">Dhanmondi 17, Dhaka -1200, Bangladesh</p>
+        </div>
+      </div>
+      <div class="three bg-[#07332F] p-10 rounded-xl flex gap-5">
+        <div class="icon">
+          <i class="fa-solid fa-phone-volume text-3xl"></i>
+        </div>
+
+        <div class="text">
+          <h1 class="font-bold text-2xl">Contact Us</h1>
+          <p class="text-lg">+88 01750 00 00 00 +88 01750 00 00 00</p>
         </div>
       </div>
     </section>
