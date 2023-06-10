@@ -1,159 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/34eb3bc25a.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Doc App</title>
-  </head>
-  <body class="max-w-[1500px] mx-auto text-center md:text-left">
-    <section
-      class="w-full text-white py-5 px-5 md:px-60 bg-center bg-cover"
-      style="background-image: url('images/backgroundimg.png')"
-    >
-      <div class="topbar flex justify-between items-center">
-        <img src="images/logo.png" alt="" />
-        <nav class="mx-3">
-          <ul class="hidden space-x-6 text-lg md:flex">
-            <li class="cursor-pointer">Home</li>
-            <li class="cursor-pointer">About</li>
-            <li class="cursor-pointer">Appointment</li>
-            <li class="cursor-pointer">Login</li>
-          </ul>
-          <i class="block md:hidden text-3xl font-bold fa-solid fa-bars"></i>
-        </nav>
-      </div>
-      <div class="banner md:flex items-center justify-center py-5 md:py-20">
-        <div class="bannertext md:w-2/3">
-          <h1 class="text-4xl mt-10 md:text-6xl md:mt-0 font-semibold mb-10">
-            Your Best Medical Help Center
-          </h1>
-          <p class="md:w-4/5 text-lg">
-            Lorem Ipsum is simply dummy text they are printing typesetting has
-            been the industry’s stardard.
-          </p>
-          <button
-            class="bg-[#F7A582] text-white px-10 py-5 rounded-xl mt-10 font-bold md:hover:bg-transparent md:hover:text-[#F7A582] border-2 border-[#F7A582]"
-          >
-            All Service
-          </button>
-        </div>
-        <div class="bannerimage">
-          <img class="w-full" src="images/bannerimg.png" alt="" />
-        </div>
-      </div>
-    </section>
 
-    <section
-      class="ourservices md:flex md:gap-5 mt-10 md:mt-20 md:justify-evenly px-5 md:px-60"
-    >
-      <div class="servicesleft md:w-1/2">
-        <img class="w-full" src="images/services.png" alt="" />
-      </div>
-      <div class="servicesright mt-10 md:w-1/2 md:mt-0">
-        <div class="servicetext">
-          <h1 class="font-bold text-3xl">Our Services</h1>
-          <p class="my-6">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inve ntore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/34eb3bc25a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Doc App</title>
+</head>
 
-        <div class="buttons hidden border md:flex w-full rounded-xl">
-          <button
-            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
-          >
-            Cavity Protection
-          </button>
-          <button
-            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
-          >
-            Cosmetic Dentisty
-          </button>
-          <button
-            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
-          >
-            Oral Surgery
-          </button>
-        </div>
-
-        <div class="flex md:hidden border w-full rounded-xl">
-          <button
-            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
-          >
-            Gastrology
-          </button>
-          <button
-            class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1"
-          >
-            Orthopedic
-          </button>
-        </div>
-
-        <img
-          class="hidden md:block mt-10"
-          src="images/servicesleft.png"
-          alt=""
-        />
-        <img class="block md:hidden mt-5" src="images/petehaat.png" alt="" />
-        <div class="servicesbtm mt-8">
-          <h1 class="font-bold text-3xl">Electro Gastrology Therapy</h1>
-          <p class="my-6">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inve ntore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus
-            error <br />
-            Sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inve ntore veritatis et quasi architecto
-            beatae vitae dicta sunt explicabo.
-          </p>
-          <button
-            class="px-10 py-5 rounded-xl font-bold md:hover:bg-transparent text-[#F7A582] border-2 border-[#F7A582]"
-          >
-            More Details
-          </button>
-        </div>
+<body class="max-w-[1500px] mx-auto text-center md:text-left">
+  <section class="w-full text-white py-5 px-5 md:px-60 bg-center bg-cover"
+    style="background-image: url('images/backgroundimg.png')">
+    <div class="topbar flex justify-between items-center">
+      <img src="images/logo.png" alt="" />
+      <nav class="mx-3">
+        <ul class="hidden space-x-6 text-lg md:flex">
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Appointment</li>
+          <li class="cursor-pointer">Login</li>
+        </ul>
+        <i class="block md:hidden text-3xl font-bold fa-solid fa-bars"></i>
+      </nav>
+    </div>
+    <div class="banner md:flex items-center justify-center py-5 md:py-20">
+      <div class="bannertext md:w-2/3">
+        <h1 class="text-4xl mt-10 md:text-6xl md:mt-0 font-semibold mb-10">
+          Your Best Medical Help Center
+        </h1>
+        <p class="md:w-4/5 text-lg">
+          Lorem Ipsum is simply dummy text they are printing typesetting has
+          been the industry’s stardard.
+        </p>
+        <button
+          class="bg-[#F7A582] text-white px-10 py-5 rounded-xl mt-10 font-bold md:hover:bg-transparent md:hover:text-[#F7A582] border-2 border-[#F7A582]">
+          All Service
+        </button>
       </div>
-    </section>
+      <div class="bannerimage">
+        <img class="w-full" src="images/bannerimg.png" alt="" />
+      </div>
+    </div>
+  </section>
 
-    <section class="cards px-60 gap-5 mt-10 flex justify-evenly text-white">
-      <div class="one bg-[#07332F] p-10 rounded-xl flex gap-5">
-        <div class="icon">
-          <i class="fa-regular fa-clock text-3xl"></i>
-        </div>
-        <div class="text">
-          <h1 class="font-bold text-2xl">Opening Hours</h1>
-          <p class="text-lg">Open 9.00 am to 5.00pm Everyday</p>
-        </div>
+  <section class="ourservices md:flex md:gap-5 mt-10 md:mt-20 md:justify-evenly px-5 md:px-60">
+    <div class="servicesleft md:w-1/2">
+      <img class="w-full" src="images/services.png" alt="" />
+    </div>
+    <div class="servicesright mt-10 md:w-1/2 md:mt-0">
+      <div class="servicetext">
+        <h1 class="font-bold text-3xl">Our Services</h1>
+        <p class="my-6">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inve ntore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo.
+        </p>
       </div>
-      <div class="two bg-[#F7A582] p-10 rounded-xl flex gap-5">
-        <div class="icon">
-          <i class="fa-solid fa-location-dot text-3xl"></i>
-        </div>
-        <div class="text">
-          <h1 class="font-bold text-2xl">Our Locations</h1>
-          <p class="text-lg">Dhanmondi 17, Dhaka -1200, Bangladesh</p>
-        </div>
-      </div>
-      <div class="three bg-[#07332F] p-10 rounded-xl flex gap-5">
-        <div class="icon">
-          <i class="fa-solid fa-phone-volume text-3xl"></i>
-        </div>
 
-        <div class="text">
-          <h1 class="font-bold text-2xl">Contact Us</h1>
-          <p class="text-lg">+88 01750 00 00 00 +88 01750 00 00 00</p>
-        </div>
+      <div class="buttons hidden border md:flex w-full rounded-xl">
+        <button class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1">
+          Cavity Protection
+        </button>
+        <button class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1">
+          Cosmetic Dentisty
+        </button>
+        <button class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1">
+          Oral Surgery
+        </button>
       </div>
-    </section>
-  </body>
+
+      <div class="flex md:hidden border w-full rounded-xl">
+        <button class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1">
+          Gastrology
+        </button>
+        <button class="hover:bg-[#F7A582] text-gray-800 py-5 rounded-xl font-bold flex-1">
+          Orthopedic
+        </button>
+      </div>
+
+      <img class="hidden md:block mt-10" src="images/servicesleft.png" alt="" />
+      <img class="block md:hidden mt-5" src="images/petehaat.png" alt="" />
+      <div class="servicesbtm mt-8">
+        <h1 class="font-bold text-3xl">Electro Gastrology Therapy</h1>
+        <p class="my-6">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inve ntore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus
+          error <br />
+          Sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+          eaque ipsa quae ab illo inve ntore veritatis et quasi architecto
+          beatae vitae dicta sunt explicabo.
+        </p>
+        <button
+          class="px-10 py-5 rounded-xl font-bold md:hover:bg-transparent text-[#F7A582] border-2 border-[#F7A582]">
+          More Details
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="cards px-5 md:px-60 md:gap-5 mt-10 md:flex md:justify-evenly text-white">
+    <div class="one flex-1 bg-[#07332F] py-10 px-8 rounded-xl flex gap-5 text-left">
+      <div class="icon">
+        <i class="fa-regular fa-clock text-4xl"></i>
+      </div>
+      <div class="text">
+        <h1 class="font-bold text-2xl">Opening Hours</h1>
+        <p class="mt-3 text-lg">Open 9.00 am to 5.00pm Everyday</p>
+      </div>
+    </div>
+
+    <div class="two flex-1 mt-5 md:mt-0 bg-[#F7A582] py-10 px-8 rounded-xl flex gap-5 text-left">
+      <div class="icon">
+        <i class="fa-solid fa-location-dot text-4xl"></i>
+      </div>
+      <div class="text">
+        <h1 class="font-bold text-2xl">Our Locations</h1>
+        <p class="mt-3 text-lg">Dhanmondi 17, Dhaka -1200, Bangladesh</p>
+      </div>
+    </div>
+
+
+    <div class="three flex-1 mt-5 md:mt-0 bg-[#07332F] py-10 px-8 rounded-xl flex gap-5 text-left">
+      <div class="icon">
+        <i class="fa-solid fa-phone-volume text-4xl"></i>
+      </div>
+
+      <div class="text">
+        <h1 class="font-bold text-2xl">Contact Us</h1>
+        <p class="mt-3 text-lg">+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="reviews">
+    <div class="reviewstext">
+      <h1>What Our Patients Says</h1>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div class="reviewcards">
+      <div class="reviewcard1">
+        
+      </div>
+      <div class="reviewcard2">
+
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
 </html>
