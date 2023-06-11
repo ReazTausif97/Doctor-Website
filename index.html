@@ -55,7 +55,7 @@
       class="ourservices md:flex md:gap-5 mt-10 md:mt-20 md:justify-evenly px-5 md:px-60"
     >
       <div class="servicesleft md:w-1/2">
-        <img class="w-full" src="images/services.png" alt="" />
+        <img class="h-full w-full" src="images/services.png" alt="" />
       </div>
       <div class="servicesright mt-10 md:w-1/2 md:mt-0">
         <div class="servicetext">
@@ -183,7 +183,12 @@
           sunt explicabo.
         </p>
       </div>
-      <div class="reviewcards md:flex gap-5 mt-10">
+      <div class="reviewcards relative flex md:gap-5 mt-10">
+        <div class="z-10 flex items-center">
+          <i
+            class="md:hover:bg-[#F7A582] md:hover:text-white text-[#F7A582] absolute -left-4 md:-left-1 bg-white border border-[#F7A582] px-3 py-1.5 md:px-4 md:py-2 rounded-full text-sm md:text-xl fa-solid fa-chevron-left"
+          ></i>
+        </div>
         <div
           class="reviewcard1 border border-[#E6E6E6] p-10 rounded-xl text-left"
         >
@@ -236,6 +241,11 @@
             centurines.
           </p>
         </div>
+        <div class="z-10 flex items-center">
+          <i
+            class="md:hover:bg-[#F7A582] md:hover:text-white text-[#F7A582] -right-4 md:-right-1 absolute bg-white border border-[#F7A582] px-3 py-1.5 md:px-4 md:py-2 rounded-full text-sm md:text-xl fa-solid fa-chevron-right"
+          ></i>
+        </div>
       </div>
     </section>
 
@@ -253,7 +263,7 @@
         <div
           class="cardone text-left mt-5 md:mt-0 border border-[#E6E6E6] rounded-xl p-5"
         >
-          <img src="images/doctor1.png" alt="" />
+          <img class="w-full" src="images/doctor1.png" alt="" />
           <h1 class="mt-4 font-bold text-lg">Karyen Anderson</h1>
           <p class="text-[#6C6B6B]">BTP - Senior Physiotherapist</p>
 
@@ -287,7 +297,7 @@
         <div
           class="cardtwo text-left border mt-5 md:mt-0 border-[#E6E6E6] rounded-xl p-5"
         >
-          <img src="images/doctor2.png" alt="" />
+          <img class="w-full" src="images/doctor2.png" alt="" />
           <h1 class="mt-4 font-bold text-lg">Karyen Anderson</h1>
           <p class="text-[#6C6B6B]">BTP - Senior Physiotherapist</p>
           <i class="fa-solid fa-star text-[#F2871D] mt-4"></i>
@@ -319,7 +329,7 @@
         <div
           class="cardthree text-left border mt-5 md:mt-0 border-[#E6E6E6] rounded-xl p-5 p"
         >
-          <img src="images/doctor3.png" alt="" />
+          <img class="w-full" src="images/doctor3.png" alt="" />
           <h1 class="mt-4 font-bold text-lg">Karyen Anderson</h1>
           <p class="text-[#6C6B6B]">BTP - Senior Physiotherapist</p>
           <i class="fa-solid fa-star text-[#F2871D] mt-4"></i>
@@ -405,9 +415,9 @@
 
     <section class="footer bg-[#F3F3F3] px-5 md:px-60 mt-10 md:mt-40">
       <div class="md:flex gap-16 py-10 md:py-16">
-        <div class="md:flex-1 justify-center">
-          <div class="flex justify-center">
-            <img class="justify-center" src="images/logo2.png" alt="" />
+        <div class="md:flex-1">
+          <div class="flex justify-center md:justify-start">
+            <img class="" src="images/logo2.png" alt="" />
           </div>
 
           <p class="mt-5 md:mt-10 text-xs">
@@ -423,37 +433,37 @@
         <div class="flex-2 mt-5 md:mt-0">
           <h1 class="font-bold text-lg">Quick Links</h1>
           <div class="text-xs">
-            <p class="mt-5">About Us</p>
-            <p class="mt-5">Service</p>
-            <p class="mt-5">Doctors</p>
-            <p class="mt-5">Departments</p>
-            <p class="mt-5">Online Payment</p>
-            <p class="mt-5">Contact Us</p>
-            <p class="mt-5">My Account</p>
+            <p class="mt-3">About Us</p>
+            <p class="mt-3">Service</p>
+            <p class="mt-3">Doctors</p>
+            <p class="mt-3">Departments</p>
+            <p class="mt-3">Online Payment</p>
+            <p class="mt-3">Contact Us</p>
+            <p class="mt-3">My Account</p>
           </div>
         </div>
         <div class="flex-2 mt-5 md:mt-0">
           <h1 class="font-bold text-lg">Doc House Services</h1>
           <div class="text-xs">
-            <p class="mt-5">Pediatric Clinic</p>
-            <p class="mt-5">Diagnosis Clinic</p>
-            <p class="mt-5">Cardiac Clinic</p>
-            <p class="mt-5">Laboratory Analysis</p>
-            <p class="mt-5">Gynecological Clinic</p>
-            <p class="mt-5">Personal Counseling</p>
-            <p class="mt-5">Dental Clinic</p>
+            <p class="mt-3">Pediatric Clinic</p>
+            <p class="mt-3">Diagnosis Clinic</p>
+            <p class="mt-3">Cardiac Clinic</p>
+            <p class="mt-3">Laboratory Analysis</p>
+            <p class="mt-3">Gynecological Clinic</p>
+            <p class="mt-3">Personal Counseling</p>
+            <p class="mt-3">Dental Clinic</p>
           </div>
         </div>
         <div class="flex-2 mt-5 md:mt-0">
           <h1 class="font-bold text-lg">Working Hours</h1>
           <div class="text-xs">
-            <p class="mt-5">Monday - 10 am to 7 pm</p>
-            <p class="mt-5">Tuesday - 10 am to 7 pm</p>
-            <p class="mt-5">Wednesday - 10 am to 7 pm</p>
-            <p class="mt-5">Thursday - 10 am to 7 pm</p>
-            <p class="mt-5">Friday - 10 am to 7 pm</p>
-            <p class="mt-5">Saturday - 10 am to 7 pm</p>
-            <p class="mt-5">Sunday - 10 am to 7 pm</p>
+            <p class="mt-3">Monday - 10 am to 7 pm</p>
+            <p class="mt-3">Tuesday - 10 am to 7 pm</p>
+            <p class="mt-3">Wednesday - 10 am to 7 pm</p>
+            <p class="mt-3">Thursday - 10 am to 7 pm</p>
+            <p class="mt-3">Friday - 10 am to 7 pm</p>
+            <p class="mt-3">Saturday - 10 am to 7 pm</p>
+            <p class="mt-3">Sunday - 10 am to 7 pm</p>
           </div>
         </div>
       </div>
